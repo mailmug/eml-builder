@@ -125,7 +125,7 @@ class EmlBuilder{
             $eml .= $EOL . $EOL;
         }
 
-        echo $eml;
+        return $eml;
         
     }
 }
