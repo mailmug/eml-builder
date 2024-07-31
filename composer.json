@@ -1,0 +1,20 @@
+{
+    "name": "mailmug/eml-builder",
+    "description": "A pure php library for building EML files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mailmug\\EmlBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mailmug",
+            "email": "info@mailmug.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
